@@ -1,6 +1,8 @@
 import React, { useState, useReducer } from "react";
 import Todo from "./Todo.js";
 
+//Todo list with useReducer
+
 export const ACTIONS = {
   ADD_TODO: "add-todo",
   TOGGLE_TODO: "toggle-todo",
